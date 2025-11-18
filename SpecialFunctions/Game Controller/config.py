@@ -1,0 +1,22 @@
+from machine import Pin
+# 硬件引脚配置
+JOYSTICK_X_PIN = Pin(0)
+JOYSTICK_Y_PIN = Pin(1)
+JOYSTICK_BIN_PIN = Pin(2)
+
+BUTTON_A_PIN = Pin(5)
+BUTTON_B_PIN = Pin(11)
+BUTTON_X = Pin(8)
+BUTTON_Y = Pin(16)
+
+# 反馈设备
+VIBRATION_MOTOR = Pin(12)
+BUZZER = Pin(13)
+LED = Pin(14)
+
+# 无线设置
+RADIO_GROUP = 1
+BLE_SERVICE_UUID = "6E400001-B5A3-F393-E0A9-E50E24DCCA9E"
+
+# 遥感死区设置
+DEAD_ZONE = 50

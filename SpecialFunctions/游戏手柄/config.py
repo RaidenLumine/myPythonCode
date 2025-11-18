@@ -1,0 +1,21 @@
+# 硬件引脚配置
+JOYSTICK_X_PIN = pin0
+JOYSTICK_Y_PIN = pin1
+JOYSTICK_BIN_PIN = pin2
+
+BUTTON_A_PIN = button_a
+BUTTON_B_PIN = button_b
+BUTTON_X = pin8
+BUTTON_Y = pin16
+
+# 反馈设备
+VIBRATION_MOTOR = pin12
+BUZZER = pin13
+LED = pin14
+
+# 无线设置
+RADIO_GROUP = 1
+BLE_SERVICE_UUID = "6E400001-B5A3-F393-E0A9-E50E24DCCA9E"
+
+# 遥感死区设置
+DEAD_ZONE = 50
